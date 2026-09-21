@@ -2,6 +2,8 @@
 
 이 서버는 개인 테스트용 Cloudflare Worker입니다. 토큰 DB 없이 브라우저에 사용자 Access/Refresh Token JSON을 표시하고 사용자가 Android에 직접 옮깁니다. 실제 값은 [루트 README의 변수 목록](../README.md#설정-변수-전체-목록)을 기준으로 개인 환경에 입력합니다.
 
+Cloudflare나 Tesla Developer를 처음 사용한다면 [화면별 시작 가이드](../docs/FIRST_TIME_SETUP.md)에서 계정·주소 준비와 등록 화면의 입력 항목을 먼저 확인하세요. 아래는 키 생성과 CLI 배포를 포함한 실행 절차입니다.
+
 ## 1. 앱과 공개 HTTPS 주소 결정
 
 1. 이메일 인증·MFA가 완료된 본인의 Tesla 계정을 준비하고 [Tesla Developer](https://developer.tesla.com/)에서 애플리케이션을 생성합니다. 등록 자격·약관·결제·사용 한도는 포털에서 확인합니다.
