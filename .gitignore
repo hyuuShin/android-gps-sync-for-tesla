@@ -1,0 +1,42 @@
+# Private device captures, credentials, migration backups and test evidence
+artifacts/
+# Native build outputs
+/build/
+**/.gradle/
+**/build/
+**/DerivedData/
+.swiftpm/
+# Local editor and OS files
+.DS_Store
+.idea/
+*.iml
+*.log
+*.pyc
+__pycache__/
+*.swp
+
+# Personal Tesla / deployment settings and runtime state
+android/tesla.properties
+server/wrangler.toml
+server/.dev.vars
+server/.dev.vars.*
+.env
+.env.*
+!.env.example
+**/.wrangler/
+**/node_modules/
+**/.kotlin/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*token*.json
+*credentials*.json
+*.apk
+*.aab
+captures/
+
+# Local-only privacy review, excluded from publication
+/docs/PRIVACY_REVIEW.md

@@ -1,0 +1,17 @@
+# Copy to wrangler.toml and set your own values. Never put CLIENT_SECRET here.
+name = "tesla-location-login"
+main = "worker.mjs"
+compatibility_date = "2026-09-21"
+workers_dev = true
+
+[observability]
+enabled = false
+
+[vars]
+ORIGIN = "https://YOUR-WORKER.YOUR-SUBDOMAIN.workers.dev"
+CLIENT_ID = ""
+PUBLIC_KEY = ""
+AUDIENCE = "https://fleet-api.prd.na.vn.cloud.tesla.com"
+AUTHORIZE_URL = "https://auth.tesla.com/oauth2/v3/authorize"
+TOKEN_URL = "https://fleet-auth.prd.vn.cloud.tesla.com/oauth2/v3/token"
+SCOPES = "openid offline_access vehicle_device_data vehicle_location"

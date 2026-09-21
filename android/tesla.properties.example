@@ -1,0 +1,7 @@
+# Copy to tesla.properties (gitignored). APK contents are public, never add secrets.
+# Set these to your own Tesla application and deployed login helper.
+TESLA_LOGIN_URL=
+TESLA_CLIENT_ID=
+TESLA_DEFAULT_REGION=NA
+# Official endpoint defaults are in ../config/tesla.defaults.properties.
+# Override TESLA_TOKEN_URL / TESLA_FLEET_NA_URL / TESLA_FLEET_EU_URL only if needed.
